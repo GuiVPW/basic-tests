@@ -7,7 +7,8 @@
 	"private": false,
 	"scripts": {
 		"dev": "webpack './src' --mode development --watch",
-		"start": "webpack './src' --mode production",
+		"start": "webpack './src' --mode production && yarn instructions",
+		"instructions": "echo \"\\033[33m\n-----------------------\nNow you can run yarn test to run all the available tests!\n-----------------------\n\"",
 		"test": "jest --passWithNoTests --runInBand --detectOpenHandles",
 		"test:watch": "yarn test --watch",
 		"test:unit": "yarn test --watch -c jest-unit.config.ts",

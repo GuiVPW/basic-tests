@@ -1,0 +1,10 @@
+# General
+node_modules
+*.log
+
+
+# Build
+build
+
+# Test
+coverage

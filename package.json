@@ -11,9 +11,9 @@
 		"instructions": "echo \"\\033[33m\n-----------------------\nNow you can run yarn test to run all the available tests!\n-----------------------\n\"",
 		"test": "jest --passWithNoTests --runInBand --detectOpenHandles",
 		"test:watch": "yarn test --watch",
-		"test:unit": "yarn test --watch -c jest-unit.config.ts",
-		"test:integration": "yarn test --watch -c jest-integration.config.ts",
-		"test:acceptance": "yarn test --watch -c jest-acceptance.config.ts",
+		"test:unit": "yarn test --watch -c jest-unit.config.js",
+		"test:integration": "yarn test --watch -c jest-integration.config.js",
+		"test:acceptance": "yarn test --watch -c jest-acceptance.config.js",
 		"test:ci": "yarn test --coverage"
 	},
 	"dependencies": {

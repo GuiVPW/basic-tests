@@ -33,6 +33,10 @@ describe('Acceptance test init', () => {
 		await browser.close()
 	})
 
+	afterEach(() => {
+		jest.resetAllMocks()
+	})
+
 	it('should be defined', () => {
 		expect(browser).toBeDefined()
 		expect(page).toBeDefined()

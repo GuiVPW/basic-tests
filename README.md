@@ -27,7 +27,6 @@ Performing creating and reading operations for a simple dog 🐶.
 	Ex: `yarn test:unit`.
 - You can run the **index.html** file inside *build* folder to execute the app by yourself; ✔️
 
-<br />
 ----
 
 Made by [Guilherme Vieira](https://github.com/GuiVPW) ❤️
